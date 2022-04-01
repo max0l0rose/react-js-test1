@@ -6,7 +6,7 @@ export default class MyListComponent extends React.Component {
     constructor() {
         super();
         this.state = {
-            list: []
+            list: [{key:1, name: "Zzzzzz"}]
         }
     }
 
@@ -16,6 +16,13 @@ export default class MyListComponent extends React.Component {
             console.log(res);
             this.setState({list : res.data})
         })
+
+        for (let i = 0; i < 100 ; i++) {
+            this.state.list.push({key:i, name: 'Qqqq ' + i});
+        }
+        this.setState({list : this.state.list})
+
+        console.log(this.state.list);
     }
 
     render() {
