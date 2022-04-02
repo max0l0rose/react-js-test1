@@ -2,8 +2,17 @@ import logo from './logo.svg';
 import './App.css';
 import {MyListComponent} from "./MyListComponent";
 import MyListComponentClass from "./MyListComponentClass";
+import {TestComp} from "./TestComp";
 
 function App() {
+
+  const style1 = {
+    //color: 'white',
+    //fontSize: 200
+    backgroundColor: 'red',
+    height: 300
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -17,8 +26,13 @@ function App() {
         >
           Learn React
         </a>
-        <MyListComponent />
       </header>
+      {/*<MyListComponent style={style1} />*/}
+      <TestComp style={{
+        backgroundColor:"red",
+        height:"200px",
+        overflowY: "scroll"
+      }}/>
     </div>
   );
 }
