@@ -3,6 +3,8 @@ import './App.css';
 import {MyListComponent} from "./MyListComponent";
 import MyListComponentClass from "./MyListComponentClass";
 import {TestComp} from "./TestComp";
+import {TestComp2} from "./TestComp2";
+import TestCompClass from "./TestCompClass";
 
 function App() {
 
@@ -28,11 +30,18 @@ function App() {
         </a>
       </header>
       {/*<MyListComponent style={style1} />*/}
-      <TestComp style={{
-        backgroundColor:"red",
-        height:"200px",
-        overflowY: "scroll"
-      }}/>
+      {/*<TestComp a={1} mystyle={{*/}
+      {/*  backgroundColor:"red",*/}
+      {/*  height:"200px",*/}
+      {/*  overflowY: "scroll"*/}
+      {/*}}/>*/}
+        <TestComp2
+          style={{
+            backgroundColor:"yellow",
+            border:"1px solid red",
+            height: "300px",
+        }}
+      />
     </div>
   );
 }

@@ -3,7 +3,7 @@ import {useRef, useEffect, useCallback, useState, useMemo} from "react";
 //import * as faker from "faker";
 import { FixedSizeList as List } from "react-window";
 
-export function TestComp(props) {
+export function TestComp2(props) {
     const messagesEndRef = React.createRef();
     const [list, setList] = useState(() =>
         ["qqq", "ewwww", "eeeee"]
@@ -34,9 +34,14 @@ export function TestComp(props) {
         //     <p>Qqqqqq1</p>
         // </div>
 
-        <div style={props.style}>
+        <div
+                // style={{
+                //     ...props.style,
+                //     overflowY: "scroll"
+                // }}
+        >
             {/*<ul>*/}
-            {/*    {data.map((q, i) => <li key={i}>{q}</li>)}*/}
+            {/*    {list.map((q, i) => <li key={i}>{q}</li>)}*/}
             {/*</ul>*/}
             {/*<div ref={this.messagesEndRef} />*/}
 
@@ -47,7 +52,7 @@ export function TestComp(props) {
                 height={300}
                 width='100%'
 
-                style={{maxWidth: '100%', overflowX: 'hidden'}}
+                style={{...props.style, maxWidth: '100%', overflowX: 'hidden'}}
             >
                 {({ index, style }) => {
                     return (

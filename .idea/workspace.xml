@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1299b3a6-1864-4e12-bffa-702a919ed626" name="Changes" comment="wewqqwewqqwe">
-      <change afterPath="$PROJECT_DIR$/src/TestComp.js" afterDir="false" />
+    <list default="true" id="1299b3a6-1864-4e12-bffa-702a919ed626" name="Changes" comment="wewqqwewqqwe 2">
+      <change afterPath="$PROJECT_DIR$/src/TestComp2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestCompClass.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyListComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyListComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestComp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestComp.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +37,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="$APPLICATION_CONFIG_DIR$/node/node-v14.15.0-win-x64/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\React\react-js-test1\src" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
@@ -57,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1648831497571</updated>
-      <workItem from="1648831498747" duration="13491000" />
+      <workItem from="1648831498747" duration="28256000" />
     </task>
     <task id="LOCAL-00001" summary="wewqqwewqqwe">
       <created>1648909030828</created>
@@ -66,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648909030829</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="wewqqwewqqwe 2">
+      <created>1648917015387</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648917015387</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,7 +102,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="wewqqwewqqwe" />
-    <option name="LAST_COMMIT_MESSAGE" value="wewqqwewqqwe" />
+    <MESSAGE value="wewqqwewqqwe 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="wewqqwewqqwe 2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
