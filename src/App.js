@@ -1,19 +1,37 @@
 import logo from './logo.svg';
 import './App.css';
+import React, {useRef, useState} from "react";
 import {MyListComponent} from "./MyListComponent";
 import MyListComponentClass from "./MyListComponentClass";
 import {TestComp} from "./TestComp";
-import {TestComp2} from "./TestComp2";
 import TestCompClass from "./TestCompClass";
+import {TestComp2} from "./TestComp2";
+
+// import {ffff} from "./test2";
+// let q = new ffff();
+// let w = q.f2();
+// console.log(q, w);
 
 function App() {
+    const testRef = useRef();
+    const [v, setV] = useState(1);
 
-  const style1 = {
+    const style1 = {
     //color: 'white',
     //fontSize: 200
     backgroundColor: 'red',
     height: 300
   };
+
+    // //const { scrollableRef, scrollToEnd } = TestComp2.useSmoothScroll()
+    // var res = testFunc1();
+    // console.log(res);
+
+  // function qqqq() {
+  //     console.log("qqqq");
+  //     console.log(testRef.current);
+  //         //.scrollToEnd();
+  // }
 
   return (
     <div className="App">
@@ -35,11 +53,14 @@ function App() {
       {/*  height:"200px",*/}
       {/*  overflowY: "scroll"*/}
       {/*}}/>*/}
-        <TestComp2
+        <button onClick={() => setV(v+1)}>-----{v}-----</button><br/>
+        <button onClick={() => console.log(testRef.current.testFunc2())}>Appppppppppp</button>
+        <TestComp2 ref={testRef}
           style={{
             backgroundColor:"yellow",
-            border:"1px solid red",
+            border:"0px solid red",
             height: "300px",
+              overflowX: 'hidden'
         }}
       />
     </div>
